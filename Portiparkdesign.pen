@@ -6379,7 +6379,7 @@
                           "name": "mWlIcon",
                           "width": 14,
                           "height": 14,
-                          "iconFontName": "list",
+                          "iconFontName": "list-ordered",
                           "iconFontFamily": "lucide",
                           "fill": "#E65100"
                         },
@@ -6388,7 +6388,7 @@
                           "id": "fSG8w",
                           "name": "mWlTxt",
                           "fill": "#E65100",
-                          "content": "Waitlist: 2nd for Floor -2",
+                          "content": "File d'attente : 3ème sur 5",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "500"
@@ -6417,7 +6417,7 @@
                           "id": "skdHv",
                           "name": "mWlBtnT",
                           "fill": "#E65100",
-                          "content": "Leave",
+                          "content": "Voir >",
                           "fontFamily": "Inter",
                           "fontSize": 10,
                           "fontWeight": "500"
@@ -9656,6 +9656,79 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "frame",
+                  "id": "fLI9z",
+                  "name": "Waitlist Banner",
+                  "width": "fill_container",
+                  "fill": "#FFF3E0",
+                  "cornerRadius": 10,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#FF9800"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    10,
+                    14
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kLxRo",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "rDLRB",
+                          "width": 16,
+                          "height": 16,
+                          "iconFontName": "list-ordered",
+                          "iconFontFamily": "lucide",
+                          "fill": "#E65100"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DRKqa",
+                          "layout": "vertical",
+                          "gap": 1,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sLPjw",
+                              "fill": "#E65100",
+                              "content": "File d'attente",
+                              "fontFamily": "Inter",
+                              "fontSize": 12,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "stEUi",
+                              "fill": "#BF6900",
+                              "content": "Vous êtes 3ème sur 5",
+                              "fontFamily": "Inter",
+                              "fontSize": 10,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "pcypU",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "#E65100"
+                    }
+                  ]
                 }
               ]
             },
@@ -10465,7 +10538,7 @@
               "type": "text",
               "id": "wdKFE",
               "fill": "#FFFFFF",
-              "content": "Molette pour zoomer · Clic glisser pour déplacer",
+              "content": "Molette = zoom · Glisser = déplacer",
               "fontFamily": "Inter",
               "fontSize": 10,
               "fontWeight": "normal"
@@ -11448,7 +11521,7 @@
                       "id": "2P3KO",
                       "x": 20,
                       "y": 20,
-                      "name": "entree",
+                      "name": "exitBox",
                       "width": 90,
                       "height": 80,
                       "fill": "$spot-exit",
@@ -11465,7 +11538,7 @@
                           "id": "btUXi",
                           "name": "entreeT",
                           "fill": "#7A5500",
-                          "content": "Entrance",
+                          "content": "Exit",
                           "fontFamily": "Inter",
                           "fontSize": 12,
                           "fontWeight": "600"
@@ -12117,7 +12190,7 @@
               "type": "text",
               "id": "Im9Zl",
               "fill": "#FFFFFF",
-              "content": "Molette pour zoomer · Clic glisser pour déplacer",
+              "content": "Molette = zoom · Glisser = déplacer",
               "fontFamily": "Inter",
               "fontSize": 10,
               "fontWeight": "normal"
@@ -17626,6 +17699,92 @@
                   ]
                 }
               ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ITIDS",
+          "layoutPosition": "absolute",
+          "x": 16,
+          "y": 550,
+          "name": "Mobile Waitlist Banner",
+          "width": 343,
+          "fill": "#FFF3E0",
+          "cornerRadius": 10,
+          "stroke": {
+            "thickness": 1,
+            "fill": "#FF9800"
+          },
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#00000015",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "blur": 12
+          },
+          "gap": 8,
+          "padding": [
+            10,
+            14
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "OiXGX",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "qFCuP",
+                  "width": 16,
+                  "height": 16,
+                  "iconFontName": "list-ordered",
+                  "iconFontFamily": "lucide",
+                  "fill": "#E65100"
+                },
+                {
+                  "type": "frame",
+                  "id": "eNak6",
+                  "layout": "vertical",
+                  "gap": 1,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AWQ5J",
+                      "fill": "#E65100",
+                      "content": "File d'attente : 3ème sur 5",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ysDUy",
+                      "fill": "#BF6900",
+                      "content": "Touchez pour voir la file",
+                      "fontFamily": "Inter",
+                      "fontSize": 9,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "NKR55",
+              "width": 16,
+              "height": 16,
+              "iconFontName": "chevron-right",
+              "iconFontFamily": "lucide",
+              "fill": "#E65100"
             }
           ]
         }
@@ -24117,7 +24276,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "S. Laurent",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24200,7 +24359,7 @@
                               "fill": "$spot-text-booked",
                               "content": "M. Bernard",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24293,7 +24452,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "J. Dubois",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24404,7 +24563,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "A. Dupont",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24459,7 +24618,7 @@
                               "fill": "$spot-text-booked",
                               "content": "T. Peeters",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24580,7 +24739,7 @@
                               "fill": "$spot-text-booked",
                               "content": "P. Claes",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24663,7 +24822,7 @@
                               "fill": "$spot-text-booked",
                               "content": "L. Janssen",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24756,7 +24915,7 @@
                               "fill": "$spot-text-booked",
                               "content": "K. Dubois",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24839,7 +24998,7 @@
                               "fill": "$spot-text-booked",
                               "content": "C. Willems",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -24950,7 +25109,7 @@
                               "fill": "$spot-text-booked",
                               "content": "E. Martens",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -25694,7 +25853,7 @@
               "type": "text",
               "id": "uBN3c",
               "fill": "#FFFFFF",
-              "content": "Molette pour zoomer · Clic glisser pour déplacer",
+              "content": "Molette = zoom · Glisser = déplacer",
               "fontFamily": "Inter",
               "fontSize": 10,
               "fontWeight": "normal"
@@ -28569,7 +28728,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -28691,7 +28850,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -28823,7 +28982,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -28945,7 +29104,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29070,7 +29229,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29192,7 +29351,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29324,7 +29483,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 74.20000000000002,
+                          "x": 74.2,
                           "y": 70,
                           "fill": "#ECEFF1",
                           "width": "fit_content",
@@ -29448,7 +29607,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 74.20000000000002,
+                          "x": 74.2,
                           "y": 70,
                           "fill": "#ECEFF1",
                           "width": "fit_content",
@@ -29582,7 +29741,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29697,7 +29856,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.20000000000002,
+                          "x": 80.2,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -38303,7 +38462,7 @@
                               "fill": "$spot-text-booked",
                               "content": "S. Laurent",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38330,7 +38489,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "A. Dupont",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38385,7 +38544,7 @@
                               "fill": "$spot-text-booked",
                               "content": "M. Bernard",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38478,7 +38637,7 @@
                               "fill": "$spot-text-booked",
                               "content": "J. Dubois",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38505,7 +38664,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "A. Dupont",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38588,7 +38747,7 @@
                               "fill": "$spot-text-booked",
                               "content": "A. Dupont",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38643,7 +38802,7 @@
                               "fill": "$spot-text-booked",
                               "content": "T. Peeters",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38708,7 +38867,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "M. Bernard",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38763,7 +38922,7 @@
                               "fill": "$spot-text-booked",
                               "content": "P. Claes",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38818,7 +38977,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "T. Peeters",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38845,7 +39004,7 @@
                               "fill": "$spot-text-booked",
                               "content": "L. Janssen",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38938,7 +39097,7 @@
                               "fill": "$spot-text-booked",
                               "content": "K. Dubois",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -38965,7 +39124,7 @@
                               "fill": "$spot-text-recurring",
                               "content": "J. Dubois",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -39020,7 +39179,7 @@
                               "fill": "$spot-text-booked",
                               "content": "C. Willems",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -39131,7 +39290,7 @@
                               "fill": "$spot-text-booked",
                               "content": "E. Martens",
                               "fontFamily": "Inter",
-                              "fontSize": 10,
+                              "fontSize": 9,
                               "fontWeight": "500"
                             }
                           ]
@@ -39922,7 +40081,7 @@
               "type": "text",
               "id": "xxIKE",
               "fill": "#FFFFFF",
-              "content": "Molette pour zoomer · Clic glisser pour déplacer",
+              "content": "Molette = zoom · Glisser = déplacer",
               "fontFamily": "Inter",
               "fontSize": 10,
               "fontWeight": "normal"
@@ -43403,7 +43562,7 @@
           "x": 1060,
           "y": 20,
           "name": "ErrorToast",
-          "width": 360,
+          "width": 340,
           "fill": "#FEF2F2",
           "cornerRadius": 12,
           "stroke": {
@@ -43449,7 +43608,7 @@
                   "fill": "$color-error",
                   "content": "Double réservation détectée",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
+                  "fontSize": 12,
                   "fontWeight": "600"
                 },
                 {
@@ -43458,7 +43617,7 @@
                   "fill": "#7B2D3B",
                   "content": "Vous avez déjà réservé ce jour",
                   "fontFamily": "Inter",
-                  "fontSize": 11,
+                  "fontSize": 10,
                   "fontWeight": "normal"
                 }
               ]
@@ -61027,7 +61186,7 @@
           "x": 1040,
           "y": 20,
           "name": "SuccessToast",
-          "width": 380,
+          "width": 360,
           "fill": "#E6F9EE",
           "cornerRadius": 12,
           "stroke": {
@@ -75809,7 +75968,7 @@
           "x": 1060,
           "y": 20,
           "name": "EV Toast",
-          "width": 360,
+          "width": 340,
           "fill": "#E3F2FD",
           "cornerRadius": 12,
           "stroke": {
@@ -75855,7 +76014,7 @@
                   "fill": "#2980B9",
                   "content": "Borne EV1 disponible !",
                   "fontFamily": "Inter",
-                  "fontSize": 13,
+                  "fontSize": 12,
                   "fontWeight": "600"
                 },
                 {
@@ -75864,7 +76023,7 @@
                   "fill": "#1565C0",
                   "content": "22 kW · Sous-sol -1 · Réservez vite !",
                   "fontFamily": "Inter",
-                  "fontSize": 11,
+                  "fontSize": 10,
                   "fontWeight": "normal"
                 }
               ]
@@ -80286,7 +80445,7 @@
           "x": 1060,
           "y": 20,
           "name": "WaitlistToast",
-          "width": 360,
+          "width": 320,
           "fill": "#E6F9EE",
           "cornerRadius": 12,
           "stroke": {
@@ -80339,7 +80498,7 @@
                   "type": "text",
                   "id": "XwO81",
                   "fill": "#4CAF50",
-                  "content": "Spot 14 · Home La Cambre · Confirmez vite !",
+                  "content": "Spot 14 · La Cambre · Confirmez !",
                   "fontFamily": "Inter",
                   "fontSize": 11,
                   "fontWeight": "normal"

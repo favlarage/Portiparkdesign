@@ -18275,7 +18275,15 @@
                   "ref": "yavZ6",
                   "name": "badge",
                   "x": 131,
-                  "y": 4.5
+                  "y": 4.5,
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "descendants": {
+                    "KwoVS": {
+                      "x": 10,
+                      "y": 3
+                    }
+                  }
                 }
               ]
             }
@@ -18342,7 +18350,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Total Reservations Today",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -18399,7 +18408,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Available Spots",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -18456,7 +18466,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Waiting List Users",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -18513,7 +18524,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Disabled Spots",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -18583,7 +18595,8 @@
                           "fill": "$color-text-muted",
                           "content": "47 total",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -18670,7 +18683,8 @@
                                       "fill": "$color-text-secondary",
                                       "content": "Spot 29 · Floor -1 · AM",
                                       "fontFamily": "Inter",
-                                      "fontSize": 11
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -18682,7 +18696,15 @@
                               "ref": "yFMcq",
                               "name": "r1badge",
                               "x": 644,
-                              "y": 16.5
+                              "y": 16.5,
+                              "width": "fit_content",
+                              "height": "fit_content",
+                              "descendants": {
+                                "oRiI3": {
+                                  "x": 10,
+                                  "y": 3
+                                }
+                              }
                             }
                           ]
                         },
@@ -18761,7 +18783,8 @@
                                       "fill": "$color-text-secondary",
                                       "content": "Spot 14 · Floor -2 · Full day",
                                       "fontFamily": "Inter",
-                                      "fontSize": 11
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -18774,9 +18797,13 @@
                               "name": "r2badge",
                               "x": 658,
                               "y": 16.5,
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -18857,7 +18884,8 @@
                                       "fill": "$color-text-secondary",
                                       "content": "Spot 7 · Floor -1 · PM",
                                       "fontFamily": "Inter",
-                                      "fontSize": 11
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -18870,9 +18898,13 @@
                               "name": "r3badge",
                               "x": 639,
                               "y": 16.5,
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "qa4TM": {
-                                  "content": "Cancelled"
+                                  "content": "Cancelled",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -18953,7 +18985,8 @@
                                       "fill": "$color-text-secondary",
                                       "content": "Spot 42 · Floor -3 · AM",
                                       "fontFamily": "Inter",
-                                      "fontSize": 11
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -18966,9 +18999,13 @@
                               "name": "r4badge",
                               "x": 658,
                               "y": 16.5,
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -19049,7 +19086,8 @@
                                       "fill": "$color-text-secondary",
                                       "content": "Spot 18 · Floor -2 · Full day",
                                       "fontFamily": "Inter",
-                                      "fontSize": 11
+                                      "fontSize": 11,
+                                      "fontWeight": "normal"
                                     }
                                   ]
                                 }
@@ -19062,9 +19100,13 @@
                               "name": "r5badge",
                               "x": 658,
                               "y": 16.5,
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -19117,7 +19159,8 @@
                           "fill": "$color-text-muted",
                           "content": "65 spots",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19424,7 +19467,8 @@
                       "fill": "$color-text-muted",
                       "content": "Last 24 hours",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -19474,7 +19518,8 @@
                           "width": "fill_container",
                           "content": "New reservation — Spot 29, Floor -1",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19483,7 +19528,8 @@
                           "fill": "$color-text-muted",
                           "content": "alice.dupont@mail.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19492,7 +19538,8 @@
                           "fill": "$color-text-muted",
                           "content": "2 min ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19534,7 +19581,8 @@
                           "width": "fill_container",
                           "content": "Reservation cancelled — Spot 7, Floor -1",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19543,7 +19591,8 @@
                           "fill": "$color-text-muted",
                           "content": "sophie.laurent@mail.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19552,7 +19601,8 @@
                           "fill": "$color-text-muted",
                           "content": "15 min ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19594,7 +19644,8 @@
                           "width": "fill_container",
                           "content": "Spot disabled — Spot 12, Floor -2",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19603,7 +19654,8 @@
                           "fill": "$color-text-muted",
                           "content": "admin@portimates.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19612,7 +19664,8 @@
                           "fill": "$color-text-muted",
                           "content": "32 min ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19654,7 +19707,8 @@
                           "width": "fill_container",
                           "content": "New reservation — Spot 14, Floor -2",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19663,7 +19717,8 @@
                           "fill": "$color-text-muted",
                           "content": "marc.bernard@mail.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19672,7 +19727,8 @@
                           "fill": "$color-text-muted",
                           "content": "45 min ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19714,7 +19770,8 @@
                           "width": "fill_container",
                           "content": "User added to waiting list — Floor -1",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19723,7 +19780,8 @@
                           "fill": "$color-text-muted",
                           "content": "paul.henrard@mail.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19732,7 +19790,8 @@
                           "fill": "$color-text-muted",
                           "content": "1h ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -19774,7 +19833,8 @@
                           "width": "fill_container",
                           "content": "New reservation — Spot 42, Floor -3",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19783,7 +19843,8 @@
                           "fill": "$color-text-muted",
                           "content": "jean.dubois@mail.com",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -19792,7 +19853,8 @@
                           "fill": "$color-text-muted",
                           "content": "1h 20m ago",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -20267,7 +20329,15 @@
                   "ref": "yavZ6",
                   "name": "badge",
                   "x": 131,
-                  "y": 4.5
+                  "y": 4.5,
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "descendants": {
+                    "KwoVS": {
+                      "x": 10,
+                      "y": 3
+                    }
+                  }
                 }
               ]
             }
@@ -20311,7 +20381,8 @@
                   "fill": "$color-text-muted",
                   "content": "156 reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -20331,9 +20402,12 @@
                   "name": "fDate",
                   "x": 0,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "20 Mar 2026"
+                      "content": "20 Mar 2026",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 },
@@ -20345,9 +20419,12 @@
                   "name": "fFloor",
                   "x": 172,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "All Floors"
+                      "content": "All Floors",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 },
@@ -20359,9 +20436,12 @@
                   "name": "fStatus",
                   "x": 324,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "All Statuses"
+                      "content": "All Statuses",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 },
@@ -20373,9 +20453,12 @@
                   "name": "fSearch",
                   "x": 476,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "Search by user..."
+                      "content": "Search by user...",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 },
@@ -20594,7 +20677,8 @@
                                   "fill": "$color-text-muted",
                                   "content": "alice.dupont@mail.com",
                                   "fontFamily": "Inter",
-                                  "fontSize": 10
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -20625,7 +20709,8 @@
                               "fill": "$color-text-muted",
                               "content": "Floor -1",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20638,7 +20723,8 @@
                           "width": 120,
                           "content": "20 Mar 2026",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -20696,7 +20782,8 @@
                               "fill": "$color-text-muted",
                               "content": "Car",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20711,9 +20798,13 @@
                               "type": "ref",
                               "ref": "yFMcq",
                               "name": "tr1statB",
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -20727,10 +20818,13 @@
                           "name": "tr1act",
                           "x": 840,
                           "y": 8.5,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -20809,7 +20903,8 @@
                                   "fill": "$color-text-muted",
                                   "content": "marc.bernard@mail.com",
                                   "fontFamily": "Inter",
-                                  "fontSize": 10
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -20840,7 +20935,8 @@
                               "fill": "$color-text-muted",
                               "content": "Floor -2",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20853,7 +20949,8 @@
                           "width": 120,
                           "content": "20 Mar 2026",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -20911,7 +21008,8 @@
                               "fill": "$color-text-muted",
                               "content": "Car",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -20926,9 +21024,13 @@
                               "type": "ref",
                               "ref": "yFMcq",
                               "name": "tr2statB",
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -20942,10 +21044,13 @@
                           "name": "tr2act",
                           "x": 840,
                           "y": 8.5,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -21024,7 +21129,8 @@
                                   "fill": "$color-text-muted",
                                   "content": "sophie.laurent@mail.com",
                                   "fontFamily": "Inter",
-                                  "fontSize": 10
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -21055,7 +21161,8 @@
                               "fill": "$color-text-muted",
                               "content": "Floor -1",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21068,7 +21175,8 @@
                           "width": 120,
                           "content": "20 Mar 2026",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -21126,7 +21234,8 @@
                               "fill": "$color-text-muted",
                               "content": "Electric",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21142,9 +21251,13 @@
                               "ref": "y7Rld",
                               "name": "tr3statB",
                               "x": 0,
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "qa4TM": {
-                                  "content": "Cancelled"
+                                  "content": "Cancelled",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -21235,7 +21348,8 @@
                                   "fill": "$color-text-muted",
                                   "content": "jean.dubois@mail.com",
                                   "fontFamily": "Inter",
-                                  "fontSize": 10
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -21266,7 +21380,8 @@
                               "fill": "$color-text-muted",
                               "content": "Floor -3",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21279,7 +21394,8 @@
                           "width": 120,
                           "content": "20 Mar 2026",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -21337,7 +21453,8 @@
                               "fill": "$color-text-muted",
                               "content": "Motorcycle",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21352,9 +21469,13 @@
                               "type": "ref",
                               "ref": "yFMcq",
                               "name": "tr4statB",
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -21368,10 +21489,13 @@
                           "name": "tr4act",
                           "x": 840,
                           "y": 8.5,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -21450,7 +21574,8 @@
                                   "fill": "$color-text-muted",
                                   "content": "clara.willems@mail.com",
                                   "fontFamily": "Inter",
-                                  "fontSize": 10
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -21481,7 +21606,8 @@
                               "fill": "$color-text-muted",
                               "content": "Floor -2",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21494,7 +21620,8 @@
                           "width": 120,
                           "content": "20 Mar 2026",
                           "fontFamily": "Inter",
-                          "fontSize": 13
+                          "fontSize": 13,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -21552,7 +21679,8 @@
                               "fill": "$color-text-muted",
                               "content": "Car",
                               "fontFamily": "Inter",
-                              "fontSize": 10
+                              "fontSize": 10,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -21567,9 +21695,13 @@
                               "type": "ref",
                               "ref": "yFMcq",
                               "name": "tr5statB",
+                              "width": "fit_content",
+                              "height": "fit_content",
                               "descendants": {
                                 "oRiI3": {
-                                  "content": "Active"
+                                  "content": "Active",
+                                  "x": 10,
+                                  "y": 3
                                 }
                               }
                             }
@@ -21583,10 +21715,13 @@
                           "name": "tr5act",
                           "x": 840,
                           "y": 8.5,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -21825,9 +21960,13 @@
                           "ref": "yFMcq",
                           "name": "r5stB",
                           "x": 8,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         }
@@ -21850,10 +21989,14 @@
                           "ref": "ViP83",
                           "name": "r5actB",
                           "x": 8,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -22092,9 +22235,13 @@
                           "ref": "y7Rld",
                           "name": "r6stB",
                           "x": 8,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "qa4TM": {
-                              "content": "Cancelled"
+                              "content": "Cancelled",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         }
@@ -22356,9 +22503,13 @@
                           "ref": "yFMcq",
                           "name": "r7stB",
                           "x": 8,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         }
@@ -22381,10 +22532,14 @@
                           "ref": "ViP83",
                           "name": "r7actB",
                           "x": 8,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "content": "Cancel",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "x": 20,
+                              "y": 11
                             }
                           }
                         }
@@ -22861,7 +23016,15 @@
                   "ref": "yavZ6",
                   "name": "badge",
                   "x": 131,
-                  "y": 4.5
+                  "y": 4.5,
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "descendants": {
+                    "KwoVS": {
+                      "x": 10,
+                      "y": 3
+                    }
+                  }
                 }
               ]
             }
@@ -22956,7 +23119,51 @@
                   "ref": "tSNy3",
                   "name": "floorTabs",
                   "x": 691,
-                  "y": 0
+                  "y": 0,
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "descendants": {
+                    "1ISkP": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 4,
+                      "y": 4
+                    },
+                    "3UqYi": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "XVD89": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 115,
+                      "y": 4
+                    },
+                    "DDyPe": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "9lYhO": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 223,
+                      "y": 4
+                    },
+                    "AWVcq": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "qHRN3": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 336,
+                      "y": 4
+                    },
+                    "VZz9U": {
+                      "x": 16,
+                      "y": 8
+                    }
+                  }
                 }
               ]
             },
@@ -24165,7 +24372,8 @@
                               "fill": "$color-text-secondary",
                               "content": "Floor -1 · Sous-sol -1",
                               "fontFamily": "Inter",
-                              "fontSize": 12
+                              "fontSize": 12,
+                              "fontWeight": "normal"
                             },
                             {
                               "type": "frame",
@@ -24178,7 +24386,15 @@
                                   "id": "hkKXO",
                                   "type": "ref",
                                   "ref": "yFMcq",
-                                  "name": "spotBadge"
+                                  "name": "spotBadge",
+                                  "width": "fit_content",
+                                  "height": "fit_content",
+                                  "descendants": {
+                                    "oRiI3": {
+                                      "x": 10,
+                                      "y": 3
+                                    }
+                                  }
                                 },
                                 {
                                   "type": "frame",
@@ -24330,7 +24546,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "20 Mar 2026 · AM",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -24362,7 +24579,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "21 Mar 2026 · Full day",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -24409,7 +24627,8 @@
                               "width": "fill_container",
                               "content": "Disabling this spot will cancel 2 active reservations. Users will be notified.",
                               "fontFamily": "Inter",
-                              "fontSize": 11
+                              "fontSize": 11,
+                              "fontWeight": "normal"
                             }
                           ]
                         },
@@ -24426,10 +24645,12 @@
                               "ref": "gnEP4",
                               "width": "fill_container",
                               "name": "saveBtn",
+                              "height": "fit_content",
                               "descendants": {
                                 "s5Ig2": {
                                   "x": 42,
-                                  "content": "Save"
+                                  "content": "Save",
+                                  "y": 11
                                 }
                               }
                             },
@@ -24440,10 +24661,12 @@
                               "width": "fill_container",
                               "name": "closeBtn",
                               "x": 125,
+                              "height": "fit_content",
                               "descendants": {
                                 "BePs5": {
                                   "x": 39.5,
-                                  "content": "Close"
+                                  "content": "Close",
+                                  "y": 11
                                 }
                               }
                             }
@@ -24577,7 +24800,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "My Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24611,7 +24835,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Parking Map",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24678,7 +24903,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Dashboard",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24712,7 +24938,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24782,7 +25009,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Spots",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24816,7 +25044,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Audit Logs",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24857,7 +25086,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Settings",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24930,7 +25160,15 @@
                       "ref": "yavZ6",
                       "name": "userBadge",
                       "x": 0,
-                      "y": 18
+                      "y": 18,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "KwoVS": {
+                          "x": 10,
+                          "y": 3
+                        }
+                      }
                     }
                   ]
                 }
@@ -24976,7 +25214,8 @@
                   "fill": "$color-text-secondary",
                   "content": "127 users",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -24996,9 +25235,12 @@
                   "name": "search1",
                   "x": 0,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "Search by name or email…"
+                      "content": "Search by name or email…",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 },
@@ -25026,7 +25268,8 @@
                       "fill": "$color-text-secondary",
                       "content": "All roles",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "icon_font",
@@ -25064,7 +25307,8 @@
                       "fill": "$color-text-secondary",
                       "content": "Name A–Z",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "icon_font",
@@ -25167,7 +25411,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "alice.dupont@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25180,9 +25425,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -25193,7 +25442,8 @@
                           "fill": "$color-text-secondary",
                           "content": "12 reservations · 2 vehicles",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -25223,7 +25473,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-ABC-123",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -25248,7 +25499,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25337,7 +25589,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "luc.verhoeven@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25350,9 +25603,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -25363,7 +25620,8 @@
                           "fill": "$color-text-secondary",
                           "content": "31 reservations · 1 vehicle",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -25393,7 +25651,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-MNO-987",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -25418,7 +25677,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25517,7 +25777,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "marc.dumont@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25529,7 +25790,15 @@
                           "ref": "yavZ6",
                           "name": "newBadge",
                           "x": 16,
-                          "y": 72
+                          "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
+                          "descendants": {
+                            "KwoVS": {
+                              "x": 10,
+                              "y": 3
+                            }
+                          }
                         },
                         {
                           "type": "text",
@@ -25538,7 +25807,8 @@
                           "fill": "$color-text-secondary",
                           "content": "8 reservations · 1 vehicle",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -25568,7 +25838,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "2-DEF-456",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -25593,7 +25864,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25682,7 +25954,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "claire.moreau@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25695,9 +25968,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -25708,7 +25985,8 @@
                           "fill": "$color-text-secondary",
                           "content": "15 reservations · 2 vehicles",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -25738,7 +26016,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-PQR-111",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -25763,7 +26042,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25862,7 +26142,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "sophie.laurent@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -25875,9 +26156,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -25888,7 +26173,8 @@
                           "fill": "$color-text-secondary",
                           "content": "23 reservations · 1 vehicle",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -25918,7 +26204,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-GHI-321",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -25943,7 +26230,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26032,7 +26320,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "thomas.bakker@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26045,9 +26334,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -26058,7 +26351,8 @@
                           "fill": "$color-text-secondary",
                           "content": "9 reservations · 1 vehicle",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -26088,7 +26382,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-STU-222",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -26113,7 +26408,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26212,7 +26508,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "jean.bertrand@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26225,9 +26522,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -26238,7 +26539,8 @@
                           "fill": "$color-text-secondary",
                           "content": "5 reservations · 2 vehicles",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -26268,7 +26570,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-JKL-654",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -26293,7 +26596,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26382,7 +26686,8 @@
                                   "fill": "$color-text-secondary",
                                   "content": "emma.janssen@portima.be",
                                   "fontFamily": "Inter",
-                                  "fontSize": 12
+                                  "fontSize": 12,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26395,9 +26700,13 @@
                           "name": "c1role",
                           "x": 16,
                           "y": 72,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "User"
+                              "content": "User",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -26408,7 +26717,8 @@
                           "fill": "$color-text-secondary",
                           "content": "18 reservations · 1 vehicle",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "frame",
@@ -26438,7 +26748,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-VWX-333",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             },
@@ -26463,7 +26774,8 @@
                                   "fill": "$color-text-primary",
                                   "content": "1-XYZ-789",
                                   "fontFamily": "Inter",
-                                  "fontSize": 11
+                                  "fontSize": 11,
+                                  "fontWeight": "normal"
                                 }
                               ]
                             }
@@ -26607,7 +26919,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "My Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26641,7 +26954,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Parking Map",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26708,7 +27022,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Dashboard",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26742,7 +27057,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26777,7 +27093,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Users",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26847,7 +27164,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Audit Logs",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26888,7 +27206,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Settings",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -26961,7 +27280,15 @@
                       "ref": "yavZ6",
                       "name": "userBadge",
                       "x": 0,
-                      "y": 18
+                      "y": 18,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "KwoVS": {
+                          "x": 10,
+                          "y": 3
+                        }
+                      }
                     }
                   ]
                 }
@@ -27006,7 +27333,51 @@
                   "ref": "tSNy3",
                   "name": "tabs2",
                   "x": 675,
-                  "y": 0
+                  "y": 0,
+                  "width": "fit_content",
+                  "height": "fit_content",
+                  "descendants": {
+                    "1ISkP": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 4,
+                      "y": 4
+                    },
+                    "3UqYi": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "XVD89": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 115,
+                      "y": 4
+                    },
+                    "DDyPe": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "9lYhO": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 223,
+                      "y": 4
+                    },
+                    "AWVcq": {
+                      "x": 16,
+                      "y": 8
+                    },
+                    "qHRN3": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "x": 336,
+                      "y": 4
+                    },
+                    "VZz9U": {
+                      "x": 16,
+                      "y": 8
+                    }
+                  }
                 }
               ]
             },
@@ -27048,9 +27419,13 @@
                   "name": "enableBtn",
                   "x": 698,
                   "y": 12,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "s5Ig2": {
-                      "content": "Enable selected"
+                      "content": "Enable selected",
+                      "x": 20,
+                      "y": 11
                     }
                   }
                 },
@@ -27061,9 +27436,13 @@
                   "name": "disableBtn",
                   "x": 853,
                   "y": 12,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "lrqeU": {
-                      "content": "Disable selected"
+                      "content": "Disable selected",
+                      "x": 20,
+                      "y": 11
                     }
                   }
                 },
@@ -27074,7 +27453,8 @@
                   "fill": "$color-text-secondary",
                   "content": "Clear selection",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -27160,7 +27540,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "DZOuL",
@@ -27169,9 +27550,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27182,7 +27567,8 @@
                           "fill": "$color-text-secondary",
                           "content": "1 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "ACuP5",
@@ -27192,10 +27578,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27274,7 +27662,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "9quuf",
@@ -27283,9 +27672,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27296,7 +27689,8 @@
                           "fill": "$color-text-secondary",
                           "content": "0 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "2sBPW",
@@ -27306,10 +27700,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27398,7 +27794,8 @@
                           "fill": "$color-text-secondary",
                           "content": "EV · ⚡ Charger",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "KFdxv",
@@ -27407,9 +27804,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27420,7 +27821,8 @@
                           "fill": "$color-text-secondary",
                           "content": "0 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "ANdEJ",
@@ -27430,10 +27832,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27512,7 +27916,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "iZbfD",
@@ -27521,9 +27926,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27534,7 +27943,8 @@
                           "fill": "$color-text-secondary",
                           "content": "1 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "Gl0XU",
@@ -27544,10 +27954,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27629,7 +28041,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "KNZJP",
@@ -27638,9 +28051,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27651,7 +28068,8 @@
                           "fill": "$color-text-secondary",
                           "content": "2 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "Bn5Fx",
@@ -27661,10 +28079,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27743,7 +28163,8 @@
                           "fill": "$color-text-secondary",
                           "content": "EV · ⚡ Charger",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "DfcDA",
@@ -27752,9 +28173,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27765,7 +28190,8 @@
                           "fill": "$color-text-secondary",
                           "content": "0 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "ZRBxy",
@@ -27775,10 +28201,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -27867,7 +28295,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "doODN",
@@ -27877,10 +28306,14 @@
                           "x": 74.20000000000002,
                           "y": 70,
                           "fill": "#ECEFF1",
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
                               "content": "Disabled",
-                              "fill": "#7F8C8D"
+                              "fill": "#7F8C8D",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -27891,7 +28324,8 @@
                           "fill": "$color-text-secondary",
                           "content": "0 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "uGp3N",
@@ -27901,10 +28335,12 @@
                           "name": "disBtn4",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "s5Ig2": {
                               "x": 70.2,
-                              "content": "Enable"
+                              "content": "Enable",
+                              "y": 11
                             }
                           }
                         }
@@ -27983,7 +28419,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "ZnQhx",
@@ -27993,10 +28430,14 @@
                           "x": 74.20000000000002,
                           "y": 70,
                           "fill": "#ECEFF1",
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
                               "content": "Disabled",
-                              "fill": "#7F8C8D"
+                              "fill": "#7F8C8D",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -28007,7 +28448,8 @@
                           "fill": "$color-text-secondary",
                           "content": "0 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "q1AcC",
@@ -28015,9 +28457,14 @@
                           "ref": "gnEP4",
                           "width": "fill_container",
                           "name": "disBtn9",
+                          "height": "fit_content",
+                          "x": 16,
+                          "y": 122,
                           "descendants": {
                             "s5Ig2": {
-                              "content": "Enable"
+                              "content": "Enable",
+                              "x": 70.2,
+                              "y": 11
                             }
                           }
                         }
@@ -28106,7 +28553,8 @@
                           "fill": "$color-text-secondary",
                           "content": "EV · ⚡ Charger",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "6wa6x",
@@ -28115,9 +28563,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -28128,7 +28580,8 @@
                           "fill": "$color-text-secondary",
                           "content": "1 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "qOjqr",
@@ -28138,10 +28591,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -28213,7 +28668,8 @@
                           "fill": "$color-text-secondary",
                           "content": "Standard",
                           "fontFamily": "Inter",
-                          "fontSize": 12
+                          "fontSize": 12,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "mFNZG",
@@ -28222,9 +28678,13 @@
                           "name": "sp1status",
                           "x": 80.20000000000002,
                           "y": 70,
+                          "width": "fit_content",
+                          "height": "fit_content",
                           "descendants": {
                             "oRiI3": {
-                              "content": "Active"
+                              "content": "Active",
+                              "x": 10,
+                              "y": 3
                             }
                           }
                         },
@@ -28235,7 +28695,8 @@
                           "fill": "$color-text-secondary",
                           "content": "2 booked today",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         },
                         {
                           "id": "vnmgB",
@@ -28245,10 +28706,12 @@
                           "name": "sp1btn",
                           "x": 16,
                           "y": 122,
+                          "height": "fit_content",
                           "descendants": {
                             "lrqeU": {
                               "x": 68.2,
-                              "content": "Disable"
+                              "content": "Disable",
+                              "y": 11
                             }
                           }
                         }
@@ -28380,7 +28843,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "My Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28414,7 +28878,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Parking Map",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28481,7 +28946,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Dashboard",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28515,7 +28981,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Reservations",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28550,7 +29017,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Users",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28584,7 +29052,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Spots",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28661,7 +29130,8 @@
                   "fill": "#FFFFFFAA",
                   "content": "Settings",
                   "fontFamily": "Inter",
-                  "fontSize": 13
+                  "fontSize": 13,
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -28734,7 +29204,15 @@
                       "ref": "yavZ6",
                       "name": "userBadge",
                       "x": 0,
-                      "y": 18
+                      "y": 18,
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "descendants": {
+                        "KwoVS": {
+                          "x": 10,
+                          "y": 3
+                        }
+                      }
                     }
                   ]
                 }
@@ -28779,9 +29257,13 @@
                   "ref": "2GPcD",
                   "name": "exportBtn",
                   "x": 1008,
+                  "width": "fit_content",
+                  "height": "fit_content",
                   "descendants": {
                     "BePs5": {
-                      "content": "Export CSV"
+                      "content": "Export CSV",
+                      "x": 20,
+                      "y": 11
                     }
                   }
                 }
@@ -28829,7 +29311,8 @@
                       "fill": "$color-text-primary",
                       "content": "01/03/2026",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -28877,7 +29360,8 @@
                       "fill": "$color-text-primary",
                       "content": "20/03/2026",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -28905,7 +29389,8 @@
                       "fill": "$color-text-secondary",
                       "content": "All actions",
                       "fontFamily": "Inter",
-                      "fontSize": 13
+                      "fontSize": 13,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "icon_font",
@@ -28927,9 +29412,12 @@
                   "name": "userSearch",
                   "x": 409,
                   "y": 0,
+                  "height": "fit_content",
                   "descendants": {
                     "wsVHk": {
-                      "content": "Search user…"
+                      "content": "Search user…",
+                      "x": 12,
+                      "y": 10
                     }
                   }
                 }
@@ -29058,7 +29546,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 09:14:32",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29117,7 +29606,8 @@
                           "fill": "$color-text-secondary",
                           "content": "alice.dupont@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29130,7 +29620,8 @@
                       "width": "fill_container",
                       "content": "Reservation #a1b2c3",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29141,7 +29632,8 @@
                       "width": "fill_container",
                       "content": "Spot 29, Floor -1, Full day",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29172,7 +29664,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 09:12:05",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29231,7 +29724,8 @@
                           "fill": "$color-text-secondary",
                           "content": "marc.dumont@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29244,7 +29738,8 @@
                       "width": "fill_container",
                       "content": "Reservation #d4e5f6",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29255,7 +29750,8 @@
                       "width": "fill_container",
                       "content": "Spot 12 cancelled by admin",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29286,7 +29782,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 09:08:41",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29345,7 +29842,8 @@
                           "fill": "$color-text-secondary",
                           "content": "sophie.laurent@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29358,7 +29856,8 @@
                       "width": "fill_container",
                       "content": "Session #g7h8i9",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29369,7 +29868,8 @@
                       "width": "fill_container",
                       "content": "Login via Microsoft SSO",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29400,7 +29900,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:55:17",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29459,7 +29960,8 @@
                           "fill": "$color-text-secondary",
                           "content": "marc.dumont@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29472,7 +29974,8 @@
                       "width": "fill_container",
                       "content": "Spot #4",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29483,7 +29986,8 @@
                       "width": "fill_container",
                       "content": "Spot 4 disabled, 1 reservation cancelled",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29514,7 +30018,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:50:02",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29573,7 +30078,8 @@
                           "fill": "$color-text-secondary",
                           "content": "marc.dumont@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29586,7 +30092,8 @@
                       "width": "fill_container",
                       "content": "User #j1k2l3",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29597,7 +30104,8 @@
                       "width": "fill_container",
                       "content": "Role changed to Admin for Jean B.",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29628,7 +30136,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:45:33",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29687,7 +30196,8 @@
                           "fill": "$color-text-secondary",
                           "content": "jean.bertrand@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29700,7 +30210,8 @@
                       "width": "fill_container",
                       "content": "Reservation #m4n5o6",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29711,7 +30222,8 @@
                       "width": "fill_container",
                       "content": "Spot 15, Floor -2, AM",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29742,7 +30254,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:30:11",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29801,7 +30314,8 @@
                           "fill": "$color-text-secondary",
                           "content": "marc.dumont@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29814,7 +30328,8 @@
                       "width": "fill_container",
                       "content": "Spot #9",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29825,7 +30340,8 @@
                       "width": "fill_container",
                       "content": "Spot 9 re-enabled",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29856,7 +30372,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:22:48",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -29915,7 +30432,8 @@
                           "fill": "$color-text-secondary",
                           "content": "luc.verhoeven@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -29928,7 +30446,8 @@
                       "width": "fill_container",
                       "content": "Session #p7q8r9",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -29939,7 +30458,8 @@
                       "width": "fill_container",
                       "content": "Login via email/password",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -29970,7 +30490,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:15:03",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -30029,7 +30550,8 @@
                           "fill": "$color-text-secondary",
                           "content": "claire.moreau@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -30042,7 +30564,8 @@
                       "width": "fill_container",
                       "content": "Reservation #s1t2u3",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -30053,7 +30576,8 @@
                       "width": "fill_container",
                       "content": "Spot 7, Home La Cambre, PM",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -30084,7 +30608,8 @@
                       "width": "fill_container",
                       "content": "20/03/2026 08:02:19",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "frame",
@@ -30143,7 +30668,8 @@
                           "fill": "$color-text-secondary",
                           "content": "thomas.bakker@portima.be",
                           "fontFamily": "Inter",
-                          "fontSize": 11
+                          "fontSize": 11,
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -30156,7 +30682,8 @@
                       "width": "fill_container",
                       "content": "Reservation #v4w5x6",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -30167,7 +30694,8 @@
                       "width": "fill_container",
                       "content": "Cancelled by user",
                       "fontFamily": "Inter",
-                      "fontSize": 12
+                      "fontSize": 12,
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -30180,7 +30708,8 @@
               "fill": "$color-text-muted",
               "content": "Logs are retained for 12 months.",
               "fontFamily": "Inter",
-              "fontSize": 11
+              "fontSize": 11,
+              "fontWeight": "normal"
             }
           ]
         }

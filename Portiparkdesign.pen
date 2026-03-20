@@ -17701,92 +17701,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "frame",
-          "id": "ITIDS",
-          "layoutPosition": "absolute",
-          "x": 16,
-          "y": 550,
-          "name": "Mobile Waitlist Banner",
-          "width": 343,
-          "fill": "#FFF3E0",
-          "cornerRadius": 10,
-          "stroke": {
-            "thickness": 1,
-            "fill": "#FF9800"
-          },
-          "effect": {
-            "type": "shadow",
-            "shadowType": "outer",
-            "color": "#00000015",
-            "offset": {
-              "x": 0,
-              "y": 2
-            },
-            "blur": 12
-          },
-          "gap": 8,
-          "padding": [
-            10,
-            14
-          ],
-          "justifyContent": "space_between",
-          "alignItems": "center",
-          "children": [
-            {
-              "type": "frame",
-              "id": "OiXGX",
-              "gap": 8,
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon_font",
-                  "id": "qFCuP",
-                  "width": 16,
-                  "height": 16,
-                  "iconFontName": "list-ordered",
-                  "iconFontFamily": "lucide",
-                  "fill": "#E65100"
-                },
-                {
-                  "type": "frame",
-                  "id": "eNak6",
-                  "layout": "vertical",
-                  "gap": 1,
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "AWQ5J",
-                      "fill": "#E65100",
-                      "content": "File d'attente : 3ème sur 5",
-                      "fontFamily": "Inter",
-                      "fontSize": 12,
-                      "fontWeight": "600"
-                    },
-                    {
-                      "type": "text",
-                      "id": "ysDUy",
-                      "fill": "#BF6900",
-                      "content": "Touchez pour voir la file",
-                      "fontFamily": "Inter",
-                      "fontSize": 9,
-                      "fontWeight": "normal"
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "icon_font",
-              "id": "NKR55",
-              "width": 16,
-              "height": 16,
-              "iconFontName": "chevron-right",
-              "iconFontFamily": "lucide",
-              "fill": "#E65100"
-            }
-          ]
         }
       ]
     },
@@ -28728,7 +28642,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -28850,7 +28764,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -28982,7 +28896,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29104,7 +29018,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29229,7 +29143,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29351,7 +29265,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29483,7 +29397,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 74.2,
+                          "x": 74.20000000000002,
                           "y": 70,
                           "fill": "#ECEFF1",
                           "width": "fit_content",
@@ -29607,7 +29521,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 74.2,
+                          "x": 74.20000000000002,
                           "y": 70,
                           "fill": "#ECEFF1",
                           "width": "fit_content",
@@ -29741,7 +29655,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
@@ -29856,7 +29770,7 @@
                           "type": "ref",
                           "ref": "yFMcq",
                           "name": "sp1status",
-                          "x": 80.2,
+                          "x": 80.20000000000002,
                           "y": 70,
                           "width": "fit_content",
                           "height": "fit_content",
